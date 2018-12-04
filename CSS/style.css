@@ -1,0 +1,60 @@
+body{
+     margin:0;
+    padding: 0;
+    background-image: url(../images/burpy-process.jpg);
+    background-position: center;
+    font-family: sans-serif;
+}
+
+ @media screen and(max-width:800px) {
+    body { max-width: 100%;} 
+}
+
+.login{
+    background-color: antiquewhite;
+    border:1px;
+    border-radius: 2px;
+    margin-top: 250px;
+    overflow: hidden;
+    padding: 10px;
+    height: 330px;
+    width: 340px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 22px;
+    text-align: center;
+    font-size: 22px;
+    
+}
+
+login p{
+    margin: 0;
+    padding: 0;
+    font-size: bold;
+}
+
+login input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.login input[type="text"], input[type="username"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+}
+
+login input[ type="password"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+}
